@@ -1,0 +1,28 @@
+:root {
+	--day-bg: url(./img/dayBgSM.jpg);
+	--night-bg: url(./img/nightBgSM.jpg);
+}
+
+.day#app {
+	background-image: var(--day-bg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+.night#app {
+	background-image: var(--night-bg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+
+.nightTheme {
+	color: antiquewhite;
+}
+
+@media screen and (min-width: 1000px) {
+	:root {
+		--day-bg: url(./img/dayBgLG.jpg);
+		--night-bg: url(./img/nightBgLG.jpg);
+	}
+}

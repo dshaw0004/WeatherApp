@@ -1,0 +1,79 @@
+.crntWeather {
+	font-size: 7rem;
+}
+
+.weather > button {
+	color: aliceblue;
+}
+
+.dgrC::after {
+	content: "\2103";
+	font-size: 0.5em;
+}
+
+.forecast {
+	width: 90%;
+	overflow-x: hidden;
+}
+
+.forecast .row {
+	border-block-end: 3px solid rgb(200 250 250 /0.75);
+}
+
+.modal-body > p > svg {
+	height: max-content;
+	transform: translateY(50%);
+}
+.modal-body > p p {
+	height: max-content;
+	transform: translateY(-50%);
+}
+.other {
+	border-bottom: 1px solid slateblue;
+	width: 96%;
+	padding-bottom: 0.5ch;
+}
+
+.other strong {
+	font-weight: 400;
+	font-size: 1.5rem;
+}
+
+.solarclock {
+	width: 350px;
+	height: 175px;
+	border-radius: 200px 200px 0 0;
+	/* background-color: yellow; */
+	position: relative;
+	border: 1px solid yellow;
+	border-bottom: 0;
+}
+.solarclock::after {
+	content: " ";
+	position: absolute;
+	top: 16px;
+	right: 16px;
+	left: 16px;
+	bottom: 0;
+	border-radius: 200px 200px 0 0;
+	border: 1px solid yellow;
+	border-bottom: 0;
+	/* background-color: blue; */
+}
+
+.sunHand {
+	width: 50%;
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform-origin: right;
+	--color: yellow;
+}
+.sun {
+	width: 16px;
+	aspect-ratio: 1/1;
+	background-color: var(--color);
+	border-radius: 50%;
+	margin-right: auto;
+}
