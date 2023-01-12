@@ -3,13 +3,38 @@
 	"name": "Weather App :  stay updated with weather forecast",
 	"icons": [
 		{
-			"src": "weather-app.png",
-			"sizes": "16x16",
+			"src": "./assets/weather-icon(512x512).png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "./assets/weather-icon(256x256).png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "./assets/weather-icon(192x192).png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "./assets/weather-icon(128x128).png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "./assets/weather-icon(72x72).png",
+			"sizes": "72x72",
+			"type": "image/png"
+		},
+		{
+			"src": "./assets/weather-icon(64x64).png",
+			"sizes": "64x64",
 			"type": "image/png"
 		}
 	],
 	"start_url": "https://dshaw0004.github.io/WeatherApp",
 	"display": "standalone",
 	"theme_color": "#0089ff",
-	"background_color": "#23cdef"
+	"background_color": "#000000"
 }
